@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Beans And Crust - Home</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background: url('C:/Users/stjos/OneDrive/Desktop/Mrunali/coffee.jpeg') center/cover no-repeat;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.6); 
+        }
+
+        header h1 {
+            position: relative;
+            z-index: 1;
+            font-size: 3em;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 15px 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.3em;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+            text-decoration: underline;
+        }
+
+        /* Main Content Styling */
+        main {
+            text-align: center;
+            padding: 50px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        main h2 {
+            font-size: 2.5em;
+            color: #222;
+            margin-bottom: 20px;
+        }
+
+        main p {
+            font-size: 1.2em;
+            color: #444;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+        main img {
+            width: 90%;
+            max-width: 700px;
+            height: auto;
+            display: block;
+            margin: 30px auto;
+            border-radius: 15px;
+            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+         footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #ffcc00;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Beans And Crust</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Welcome to Beans And Crust!</h2>
+        <p>At Beans and Crust, we craft exceptional coffee from ethically sourced beans, roasted to perfection to highlight their unique flavors. Every visit offers a moment of warmth and comfort. Whether you're enjoying a bold espresso or a smooth latte, our passion for quality shines through in every cup and bite.</p>
+        <img src="C:\Users\stjos\OneDrive\Desktop\Mrunali\beans.jpeg" alt="Coffee and Beans">
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Beans And Crust | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
